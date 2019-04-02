@@ -4,12 +4,12 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta http-equiv="refresh" content="20" />
    <body onLoad="pageScroll()">
-        <iframe height="1800px" width="100%"  src="https://en.m.wikipedia.org/wiki/Special:RandomInCategory/Featured_articles" name="iframe_a" style="border:none;"></iframe>
+        <iframe height="2500px" width="100%"  src="https://en.m.wikipedia.org/wiki/Special:RandomInCategory/Featured_articles" name="iframe_a" style="border:none;"></iframe>
 
         <script>
 function pageScroll() {
     	window.scrollBy(0,2); // horizontal and vertical scroll increments
-    	scrolldelay = setTimeout('pageScroll()',100); // scrolls every x milliseconds
+    	scrolldelay = setTimeout('pageScroll()',40); // scrolls every x milliseconds
 }
 window.onbeforeunload = function () {
   window.scrollTo(0, 0);
