@@ -4,28 +4,16 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta http-equiv="refresh" content="15" />
    <link rel="stylesheet" href="/stylesheet.css">
-   <body class="">
-        <iframe height="1200px" width="95%" src="https://en.m.wikipedia.org/wiki/Special:Random#/random" name="iframe_a"></iframe>
+   <body onLoad="pageScroll()">
+        <iframe height="1900px" width="95%" src="https://en.m.wikipedia.org/wiki/Special:Random#/random" name="iframe_a"></iframe>
 
         <script>
-                $(function() {
-            
-                    setTimeout(function() {
-            
-                        var jumpPos = $('#end').offset().top;
-            
-                        if ($(document).scrollTop() <= jumpPos)
-            
-                            $('html, body').animate({
-            
-                            scrollTop: jumpPos
-            
-                        }, 1000);
-            
-                    }, 1000);
-            
-                });
-            </script>
+function pageScroll() {
+    	window.scrollBy(0,1); // horizontal and vertical scroll increments
+    	scrolldelay = setTimeout('pageScroll()',100); // scrolls every 100 milliseconds
+}
+ 
+</script>
 
-</body id="end">
+</body>
 </html>
