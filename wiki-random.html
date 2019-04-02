@@ -1,41 +1,30 @@
-<!DOCTYPE html>
-
+<!DOCTYPE html> 
 <html>
-
-<head>
-
-    <title>Ark</title>
-
-    <meta http-equiv="refresh" content="25" />
-
-</head>
-
-<body>
-
-    <iframe height="1200px" width="100%" src="https://en.m.wikipedia.org/wiki/Special:Random#/random" name="iframe_a"></iframe>
+   <title>Ark</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="refresh" content="15" />
+   <link rel="stylesheet" href="/stylesheet.css">
+   <body class="">
+        <iframe height="1200px" width="100%" src="https://en.m.wikipedia.org/wiki/Special:Random#/random" name="iframe_a"></iframe>
 
 </body>
-
-<footer id="end"></footer>
-
-<script>
-    $(function() {
-
-        setTimeout(function() {
-
-            var jumpPos = $('#end').offset().top;
-
-            if ($(document).scrollTop() <= jumpPos)
-
-                $('html, body').animate({
-
-                scrollTop: jumpPos
-
-            }, 1000);
-
-        }, 1000);
-
-    });
-</script>
-
 </html>
+<script>
+        $(function() {
+    
+            setTimeout(function() {
+    
+                var jumpPos = $('#end').offset().top;
+    
+                if ($(document).scrollTop() <= jumpPos)
+    
+                    $('html, body').animate({
+    
+                    scrollTop: jumpPos
+    
+                }, 1000);
+    
+            }, 1000);
+    
+        });
+    </script>
