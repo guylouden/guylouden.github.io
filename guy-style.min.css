@@ -20,7 +20,8 @@ h1,h2,h3,h4,h5,h6{
     color: black;
 }
 a:hover {
-    text-shadow:0 0 5px rgb(110, 110, 110)
+    text-shadow:0 0 5px rgb(134, 134, 134);
+    color: black;
 }
 header.masthead{
     position:relative;
