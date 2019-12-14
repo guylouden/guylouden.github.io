@@ -77,4 +77,10 @@ footer.footer{
 .btn-primary {
     color: black;
     background-color: white;
+    border: none;
+}
+.btn-primary:hover {
+    color: black;
+    background-color: lightgray;
+    border: none;
 }
