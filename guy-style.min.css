@@ -2,13 +2,16 @@
 body{
     font-family:'IBM Plex Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     background-color: yellowgreen;
+    font-size: large;
 }
 p{
-    font-family:'IBM Plex Sans','Helvetica Neue',Helvetica,Arial,sans-serif
+    font-family:'IBM Plex Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: large;
 }
 a{
     font-family:'IBM Plex Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
     color: black;
+    font-size: large;
 }
 .navbar {
   background-color: rgba(255, 255, 255, 0);
@@ -16,6 +19,7 @@ a{
 }
 h1,h2,h3,h4,h5,h6{
     font-weight:700;
+    font-size: large;
     font-family:'IBM Plex Mono', monospace;
     color: black;
 }
