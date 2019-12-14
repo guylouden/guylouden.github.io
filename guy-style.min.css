@@ -6,6 +6,10 @@ body{
 p{
     font-family:'IBM Plex Sans','Helvetica Neue',Helvetica,Arial,sans-serif
 }
+a{
+    font-family:'IBM Plex Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: black;
+}
 .navbar {
   background-color: rgba(255, 255, 255, 0);
   padding: 0.1rem 0.1rem 0.1rem 0.1rem;
@@ -16,7 +20,7 @@ h1,h2,h3,h4,h5,h6{
     color: black;
 }
 a:hover {
-    text-shadow:0 0 5px white
+    text-shadow:0 0 5px rgb(110, 110, 110)
 }
 header.masthead{
     position:relative;
