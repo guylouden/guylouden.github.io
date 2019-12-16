@@ -1,7 +1,7 @@
 /*! * Start Bootstrap - Landing Page v5.0.7 (https://startbootstrap.com/template-overviews/landing-page) * Copyright 2013-2019 Start Bootstrap * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE) */
 body{
     font-family:'IBM Plex Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-    background-color: yellowgreen;
+    background-color: rgb(185, 253, 253);
     font-size: large;
 }
 p{
@@ -86,4 +86,30 @@ footer.footer{
     color: black;
     background-color: lightgray;
     border: none;
-}
+} 
+  .btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: lightgray;
+    border-color:none;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  }
+  
+  .btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: lightgray;
+    border-color:none;
+  }
+.badge {
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    margin-left: -12px;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: top;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-radius: 11px;
+  }
