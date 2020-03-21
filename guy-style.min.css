@@ -113,3 +113,7 @@ footer.footer{
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     border-radius: 11px;
   }
+  .badge-info {
+    color: #fff;
+    background-color: #4caf50;
+}
